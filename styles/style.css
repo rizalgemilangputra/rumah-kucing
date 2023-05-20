@@ -1,0 +1,152 @@
+body {
+    margin: 0px;
+}
+
+/* navbar */
+.navbar {
+    overflow: hidden;
+    background-color: #111111c0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+    padding-left: 100px;
+}
+
+.navbar img {
+    float: left;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 65%;
+    margin-right: 20px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* profile */
+main .profile {
+    padding-top: 15em;
+    padding-bottom: 11em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .profile .image {
+    flex: 40%;
+    text-align: center;
+}
+
+main .profile .image img {
+    max-height: 300px;
+    border-radius: 25px;
+}
+
+main .profile .description {
+    flex: 40%;
+}
+
+main .profile .description h1 {
+    color: #111111;
+    font-weight: bold;
+    font-size: xx-large;
+    padding-left: 20px;
+}
+
+main .profile .description p {
+    color: #111111;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 150px;
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+/* race-cats */
+
+main .race-cats {
+    padding-top: 7em;
+    padding-bottom: 11em;
+    background-image: url('../assets/pattren.png');
+    background-repeat: repeat;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+main .race-cats .title {
+    margin-top: 2em;
+    text-align: center;
+    background-color: #ececec;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main .race-cats .title h2 {
+    font-size: 2em;
+}
+
+main .race-cats .title p {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+main .race-cats .cats {
+    margin-top: 4em;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+main .race-cats .cats .item-cat {
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    background-color: white;
+    flex: 45%;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    display: flex;
+    height: 200px;
+}
+
+main .race-cats .cats .item-cat img {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+main .race-cats .cats .item-cat .description {
+    padding-left: 15px;
+}
+
+main .race-cats .cats .item-cat .description ul {
+    padding-left: 15px;
+}
+
+
+/* footer */
+footer {
+    padding-top: 6em;
+}
